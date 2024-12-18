@@ -35,7 +35,7 @@ images:
 imagePullSecrets: []
 
 secrets:
-  create: false
+  create: true
 
 nameOverride: ""
 fullnameOverride: ""
