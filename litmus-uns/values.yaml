@@ -35,7 +35,7 @@ images:
 imagePullSecrets: []
 
 secrets:
-  create: false
+  create: true
 
 nameOverride: ""
 fullnameOverride: ""
@@ -65,7 +65,7 @@ service:
   annotations: {}
   ports:
     http: 80
-    https: 8443
+    https: 443
     mqtt: 1883
     mqtts: 8883
     mqttWs: 1882
